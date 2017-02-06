@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'typogen'
+
+TypoGen::CLI.run(ARGV.first, options: {})
