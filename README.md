@@ -7,7 +7,7 @@ Simple typo generator (English)
 Or install it yourself as:
 
 ```
-$ gem install typo_generator
+$ gem install typogen
 ```
 
 ## Usage
@@ -41,5 +41,5 @@ instale
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/siman-man/typo_generator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/siman-man/typogen. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
