@@ -1,13 +1,14 @@
 module TypoGen
   class EndSameSound
     PATTERN_LIST = [
-        %w(ar er),
-        %w(ll le),
+        %w(dar der),
         %w(se ce),
         %w(sion tion),
         %w(tar tor ter),
         %w(ser cer),
-        %w(val vel)
+        %w(val vel),
+        %w(rize lize),
+        %w(ry ly)
     ]
 
     def self.create(word)
