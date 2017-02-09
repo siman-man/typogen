@@ -8,6 +8,7 @@ module TypoGen
 
       typo_list |= SkipLetter.create(word)
       typo_list |= SwapLetter.create(word)
+      typo_list |= StartSameSound.create(word)
       typo_list |= EndSameSound.create(word)
 
       typo_list - [word]
