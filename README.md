@@ -1,5 +1,7 @@
 # TypoGen
 
+[![Build Status](https://travis-ci.org/siman-man/typogen.svg?branch=master)](https://travis-ci.org/siman-man/typogen)
+
 Simple typo generator (English)
 
 ## Installation
