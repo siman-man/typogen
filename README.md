@@ -4,8 +4,6 @@ Simple typo generator (English)
 
 ## Installation
 
-Or install it yourself as:
-
 ```
 $ gem install typogen
 ```
@@ -19,7 +17,7 @@ $ typogen [word]
 ## Example
 
 ```
-typogen install
+$ typogen install
 ```
 
 output
