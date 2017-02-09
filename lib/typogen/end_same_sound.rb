@@ -8,8 +8,8 @@ module TypoGen
         %w(ser cer),
         %w(val vel),
         %w(rize lize),
-        %w(ry ly)
-    ]
+        %w(ry ly),
+    ].freeze
 
     def self.create(word)
       typo_list = []
