@@ -3,4 +3,19 @@
 require 'optparse'
 require 'typogen'
 
-TypoGen::CLI.run(ARGV.first, options: {})
+options = {}
+
+opt_parse = OptionParser.new do |opt|
+  opt.banner = "Usage: typogen [options] word"
+  opt.on("-v", "--version", "display the typogen version.") { options[:version] = true }
+  opt.parse!(ARGV)
+end
+
+TypoGen::OPTIONS.merge!(options)
+
+case
+  when options[:version]
+    puts "TypoGen version: #{TypoGen::VERSION}"
+  else
+    TypoGen::CLI.run(ARGV.first, options: {})
+end
