@@ -16,6 +16,8 @@ TypoGen::OPTIONS.merge!(options)
 case
   when options[:version]
     puts "TypoGen version: #{TypoGen::VERSION}"
+  when ARGV.first.nil?
+    puts opt_parse
   else
     TypoGen::CLI.run(ARGV.first, options: {})
 end
